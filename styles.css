@@ -1,0 +1,38 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --frame-border-size: 0.2rem;
+    --frame-height: 6rem;
+    --frame-width: 9rem;
+}
+body{
+    color: rgb(83, 98, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: var(--frame-border-size) solid grey;
+    padding:var(--frame-height) var(--frame-width);
+   /* background-image: url("background.jpg"); */
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+.background.jpg{
+        width:540px; /* you can use % */
+        height: auto;
+}
+footer{
+    
+}
+.container{
+    padding: 0;
+}
+.fire{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
