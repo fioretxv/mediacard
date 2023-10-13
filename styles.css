@@ -42,7 +42,7 @@ body{
     
 }
 footer{
-    margin-top: 13rem;
+    margin-top: 12rem;
     display: flex;
     padding-left: 0.3rem;
     max-height: 30px;
@@ -54,6 +54,7 @@ footer{
     color: #d49d36;
     text-decoration: underline;
     font-family: 'Great Vibes', cursive;
+    font-size: x-large;
 }
 .front > .h1{
     opacity: 1;
@@ -70,7 +71,28 @@ footer{
     background:linear-gradient(black,#d49d36);
     transform: rotateX(180deg);
     color: rgb(195, 193, 192);
+}
+.header{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 0.5rem;
+}
+.email:not(.fa-sharp .fa-solid .fa-envelope):hover{
+    background-color: black;
+}.phone:not(.fa-sharp .fa-solid .fa-phone):hover{
+    background-color: black;
+}
+.email, .phone{
+    width: 20px;
+}
 
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-content: flex-start;
+    color: #d49d36;
+    border-radius: 8px;
+    height: auto;
 }
 .text{
     padding: .2rem;
